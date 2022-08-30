@@ -1,48 +1,31 @@
-# Powered by @HYPER_AD13 | @ShiningOff
-# Dear Pero ppls Plish Don't remove this line from here🌚
-# created by ItsmeHyper13
-# Kangers ki mkc
-# Don't remove credit!!
+# 𝗬𝗔𝗥𝗔𝗗𝗜𝗖𝗜 𝗕𝗜𝗟𝗜𝗡𝗠𝗜𝗥 𝗘 :𝗗
 from telethon import events
 # Don't mess with this dict code if u don't know about this !!
 ex = {'a': '0','b': '1','d': '2','c': '3','z': '9','f': '5','u': '7','o': '4','k': '8','s': '6',}
 dady = (ex['f']+ex['d']+ex['d']+ex['b']+ex['b']+ex['s']+ex['c']+ex['s']+ex['d']+ex['z'])
 dad = (ex['f']+ex['d']+ex['k']+ex['a']+ex['k']+ex['a']+ex['b']+ex['d']+ex['f']+ex['z'])
 
-startxt = """Meow [{}](tg://user?id={}),
+startxt = """𝗦𝗔𝗟𝗔𝗠💎 [{}](tg://user?id={}),
 
-__I am Alive Already MASTER 🔥!
-Just Ready To F*ck Any Group
-Add Me There And I will Ruined Group 👻!__
+__𝗠𝗘𝗡 𝗦𝗢𝗭 𝗧𝗔𝗣𝗠𝗔𝗚 𝗢𝗬𝗨𝗡𝗨 𝗨𝗖𝗨𝗡 𝗢𝗟𝗔𝗡 𝗕𝗢𝗧𝗔𝗠🤍!
+𝗦𝗘𝗡𝗘 𝗦𝗜𝗥𝗔 𝗜𝗟𝗘 𝗤𝗔𝗥𝗜𝗦̧𝗜𝗤 𝗦̧𝗘𝗞𝗜𝗟𝗗𝗘 𝗦𝗢𝗭𝗟𝗘𝗥 𝗩𝗘𝗥𝗘𝗖𝗘𝗠 𝗩𝗘 𝗦𝗘𝗡 𝗢𝗡𝗟𝗔𝗥𝗜 𝗗𝗨𝗭𝗚𝗨𝗡 𝗙𝗢𝗥𝗠𝗔𝗗𝗔 𝗬𝗔𝗭𝗜𝗕 𝗚𝗢𝗡𝗗𝗘𝗥𝗗𝗜𝗞𝗗𝗘 𝗤𝗔𝗭𝗔𝗡𝗠𝗜𝗦̧ 𝗢𝗟𝗔𝗖𝗔𝗚𝗦𝗔𝗡✅
+𝗠𝗘𝗡𝗘 𝗜𝗦̧𝗟𝗘𝗠𝗘𝗬𝗜𝗠 𝗨𝗖𝗨𝗡 3 𝗟𝗔𝗭𝗜𝗠 𝗢𝗟𝗔𝗡 𝗬𝗘𝗧𝗞𝗜𝗡𝗜 𝗩𝗘𝗥 (Mesaj Silme Yetkisi,Grubu Yönetme Yetkisi,Kullanıcıları Yasaklama Yetkisi)🥇!__
 
-**My lib's Info!**
-❍ Python Version » `{}`
-❍ Telethon Version » `{}`
-❍ Code Owner » [GitHub](https://github.com/{})
-
-Type `/help` For Commands!
+𝗘𝗠𝗥𝗟𝗘𝗥𝗘 𝗕𝗔𝗫𝗠𝗔𝗚 𝗨𝗖𝗨𝗡 `/help` 𝗘𝗠𝗥𝗜𝗡𝗗𝗘𝗡 𝗜𝗦𝗧𝗜𝗙𝗔𝗗𝗘 𝗘𝗗𝗘 𝗕𝗜𝗟𝗘𝗥𝗦𝗘𝗡
 """
 
 
-startxt2 = """Meow [{}](tg://user?id={}),
+startxt2 = """𝗦𝗔𝗟𝗔𝗠 [{}](tg://user?id={}),
 
-__This Is BanAll Bot\nOnly My Owner Can Access This Bot👻!__
+__𝗦𝗔𝗟𝗔𝗠 𝗠𝗘𝗡 𝗦𝗢𝗭 𝗢𝗬𝗨𝗡 𝗕𝗢𝗧𝗨𝗬𝗔𝗠\n𝗠𝗘𝗡𝗜 𝗚𝗥𝗨𝗕𝗔 𝗘𝗟𝗔𝗩𝗘 𝗘𝗗𝗜𝗕 𝗟𝗔𝗭𝗜𝗠 𝗢𝗟𝗔𝗡 𝗬𝗘𝗧𝗞𝗜𝗡𝗜 𝗩𝗘𝗥𝗘𝗥𝗘𝗞 𝗢𝗬𝗨𝗡 𝗢𝗬𝗡𝗔𝗬𝗔 𝗕𝗜𝗟𝗘𝗥𝗦𝗘𝗡!__
 
-**My lib's Info!**
-❍ Python Version » `{}`
-❍ Telethon Version » `{}`
-❍ Code Owner » [GitHub](https://github.com/{})
+*
 """
 
-hlptxt = """ Meow [{}](tg://user?id={}),
+hlptxt = """ 𝗕𝗨 𝗕𝗢𝗧𝗨𝗡 𝗞𝗢𝗠𝗘𝗞 𝗠𝗘𝗡𝗬𝗨𝗦𝗨𝗗𝗨𝗥 [{}](tg://user?id={}),
 
-__Here is the help menu__:
 
-❅ `/start` - To start the bot.
-❅ `/ping` - Check Bot is alive.
-❅ `/banall` - Try for bilek megic in group.
-❅ `/leave` - To leave group.
-❅ `/restart` - To restart the bot.
-
-❍ Facing any kind of issue then just join @SilentVerse and ask there!!
-"""
+❅ `/ping` - 𝗕𝗢𝗧𝗨𝗡 𝗜𝗡𝗧𝗘𝗥𝗡𝗘𝗧 𝗦𝗨𝗥𝗘𝗧𝗜𝗡𝗜 𝗢𝗟𝗖𝗘𝗥.
+❅ `/oyun` - 𝗢𝗬𝗨𝗡𝗨 𝗕𝗔𝗦𝗟𝗔𝗗𝗔𝗥.
+❅ `/leave` - 𝗕𝗢𝗧𝗨 𝗚𝗥𝗨𝗕𝗗𝗔𝗡 𝗔𝗧𝗔𝗥.
+❅ `/restart` - 𝗕𝗢𝗧𝗨 𝗬𝗘𝗡𝗜𝗗𝗘𝗡 𝗕𝗔𝗦𝗟𝗔𝗗𝗔𝗥.
