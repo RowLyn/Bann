@@ -1,6 +1,6 @@
-# Powered by @HYPER_AD13 | @ShiningOff
-# Dear Pero ppls Plish Don't remove this line from here🌚
-# created by ItsmeHyper13
+# Yaradıcı Bilinmir :D
+# Botu İşlətdikdən Sonra Siz Cavabdehsiz
+# Xeyirli Vuruşmalar .d
 import logging
 import re
 import os
@@ -22,8 +22,8 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = int(getenv("API_ID", "4110592"))
-API_HASH = getenv("API_HASH", "aa7c849566922168031b95212860ede0")
+API_ID = int(getenv("API_ID", "152"))
+API_HASH = getenv("API_HASH", "00")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = getenv("OWNER_ID", None)
 OP  = [int(g), int(gg), int(OWNER_ID)]
@@ -34,11 +34,11 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "ItsmeHyper13"
-repo = "https://github.com/ItsmeHyper13/BanallBot"
+Owner = "Rubyyyyyyyyyyy"
+repo = "https://github.com/RowLyn/Bann"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/SilentVerse"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/RubyProject"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -72,7 +72,7 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/SilentVerse"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/RubyProject"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -84,7 +84,7 @@ async def start(event):
         )
     if event.sender.id not in OP:
         await event.reply(
-            "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/ItsmeHyper13/BanallBot)",
+            "Ə Yox Sən Dölsən Mənim Ownerim😝!\n\nToxun Linkə Keç Gözün Bot Görsün🔥[Repository⚡](https://github.com/RowLyn/Bann)",
             link_preview=False,
         )       
 
@@ -92,18 +92,18 @@ async def start(event):
 async def ping(event):
     if event.sender.id in OP:
         start = datetime.now()
-        t = "Pinging..."
+        t = "İnternet Surəti Yoxlanılır"
         txxt = await event.reply(t)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit(f"γєαн ι αм αℓιϐє 🔥!!\n\nριиg ροиg 🏓\n   ➥ `{ms} ms`")
+        await txxt.edit(f"Mən Aktivəm🔥!!\n\internet surəti (ms olarağ) 🏓\n   ➥ `{ms} ms`")
 
 
 @sree.on(events.NewMessage(pattern="^/banall"))
 async def bun(event):
   if event.sender.id in OP:
    if not event.is_group:
-        Rep = f"__Brush Are You Serious 🙄.\nUse This Command In Any Group!!__"
+        Rep = f"__Yetim Bu Əmr Ancağ Grubda İstifadə Edilir!!__"
         await event.reply(Rep)
    else:
        await event.delete()
@@ -112,9 +112,9 @@ async def bun(event):
        admin = cht.admin_rights
        creator = cht.creator
        if not admin and not creator:
-           await event.reply("__I Don't Have Sufficient Rights To Do This.__")
+           await event.reply("__Mənim Sıfırlama Yetkilərim Yoxdur.__")
            return
-       hmm =  await event.reply("__Ye Bilek Migic Begins🥳...__")
+       hmm =  await event.reply("__Sıfırlama Uğurludur⚡..__")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
@@ -131,7 +131,7 @@ async def bun(event):
 @sree.on(events.NewMessage(pattern="^/restart"))
 async def restart(jnl):
     if jnl.sender.id in OP:
-        tct = "__Wait Restarting...__"
+        tct = "__Gözlə Yenidən Başladılır__"
         await jnl.reply(tct)
         try:
             await sree.disconnect()
@@ -147,26 +147,26 @@ async def leave(z):
         mkc = ("".join(z.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(z.text) > 7:
             mkb = int(mkc[0])
-            tet = "__Wait Leaving...__"
+            tet = "__Gözlə Tərk Edilir__"
             hm = await z.reply(tet)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await hm.edit("**Succesfully Lefted!!**")
+                await hm.edit("**Uğurla Tərk Olundu!!**")
             except Exception as e:
                 await hm.edit(str(e))
         else:
             mkb = z.chat_id
-            txt = "__Wait Leaving...__"
+            txt = "__Gözlə Tərk Edilir__"
             ok = await z.reply(txt)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await ok.edit("**Succesfully Lefted!!**")
+                await ok.edit("**Uğurla Tərk Olundu!!**")
             except Exception as e:
                 await z.edit(str(e))
 
 
-print("Your Bot  Deployed Successfully ✅")
-print("Join @SilentVerse if you facing any kind of issue!!")
+print("Sənin Botunun Deployu Uğurludur ✅")
+print("Toxun və Giriş Et @RubyProject Respect!!")
 
 
 
