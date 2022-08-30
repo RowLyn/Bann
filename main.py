@@ -22,8 +22,8 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = int(getenv("API_ID", "152"))
-API_HASH = getenv("API_HASH", "00")
+API_ID = int(getenv("API_ID", "15861235"))
+API_HASH = getenv("API_HASH", "00bc8529bf9c01bab15ba0e41cb42062")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = getenv("OWNER_ID", None)
 OP  = [int(g), int(gg), int(OWNER_ID)]
