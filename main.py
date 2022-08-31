@@ -115,7 +115,7 @@ async def bun(event):
            await event.reply("__𝗢𝗬𝗨𝗡𝗔 𝗕𝗔𝗦̧𝗟𝗔𝗠𝗔𝗤 𝗨𝗖𝗨𝗡 𝗬𝗘𝗧𝗞𝗜𝗠 𝗬𝗢𝗫𝗗𝗨𝗥.__")
            return
        hmm =  await event.reply("__𝗢𝗬𝗨𝗡 5 𝗦𝗔𝗡𝗜𝗬𝗘 𝗜𝗖𝗜𝗡𝗗𝗘 𝗕𝗔𝗦̧𝗟𝗔𝗗𝗜𝗟𝗔𝗖𝗔𝗚⚡..__")
-       await sleep(5)
+       await sleep(0.1)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
        for user in everyone:
